@@ -1,0 +1,48 @@
+*,
+::before,
+::after {
+    margin:0;
+    padding:0;
+    -webkit-tap-highlight-color: transparent;/*清楚点击默认高亮效果*/
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei",sans-serif;
+    color:#000;
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
+}
+
+ul {
+    list-style: none;
+    resize: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+input,textarea {
+    outline: none;
+    border:none;
+    resize:none;
+    -webkit-appearance: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: ".";
+    display:block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+[class^='icon_'],
+[class*=' icon_'] {
+    background:url("../img/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
