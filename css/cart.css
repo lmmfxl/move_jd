@@ -1,0 +1,285 @@
+body {
+    background-color: #f5f5f5;
+}
+.topBar {
+    position: static;
+}
+.jd_safeTip {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom:1px solid #e0e0e0;
+}
+.jd_safeTip p {
+    width: 240px;
+    display: inline-block;
+    position: relative;
+    marigin:0 auto;
+    padding-left: 25px;
+}
+.jd_safeTip p::before {
+    content:"";
+    width: 18px;
+    height: 18px;
+    background:url("../img/safe_icon.png");
+    background-size: 18px 18px;
+    position: absolute;
+    top:8px;
+    left:0;
+}
+.jd_shop_content {
+
+}
+.jd_shop_content .jd_shop_title {
+    height: 36px;
+    width: 100%;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    margin-top:10px;
+    background-color: #fff;
+}
+.jd_shop_title .jd_shop_checkBox {
+    width: 40px;
+    float: left;
+    padding-left: 10px;
+    padding-top:7px;
+    position: absolute;
+}
+.jd_shop_title .jd_shop_name {
+    float: left;
+    width: 100%;
+    padding-left: 40px;
+}
+.jd_shop_title .jd_shop_name img {
+    display: block;
+    margin-top:10px;
+    width: 15px;
+    height: 13px;
+    float: left;
+}
+.jd_shop_title .jd_shop_name .store_name {
+    float: left;
+    font-size: 13px;
+    margin-top:7px;
+    margin-left:4px;
+}
+.jd_shop_title .jd_shop_name .store_tip {
+    display: block;
+    float: right;
+    margin-right:10px;
+    margin-top:8px;
+    color:#d8505c;
+    font-size: 12px;
+}
+.jd_shop_product {
+    background-color: #fff;
+}
+.jd_shop_product ul li {
+    padding:10px 10px 10px 40px;
+    border-bottom:1px solid #e0e0e0;
+    position: relative;
+}
+.jd_shop_product ul li .product_checkBox {
+    width: 40px;
+    float: left;
+    padding-left: 10px;
+    padding-top:7px;
+    position: absolute;
+    top:20px;
+    left:0;
+}
+.jd_shop_product ul li a.product_imgBox {
+    display: block;
+    width: 80px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    left:40px;
+}
+.jd_shop_product ul li a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.jd_shop_product ul li .product_content {
+    float: left;
+    margin-left:90px;
+}
+.jd_shop_product ul li .product_content .product_name {
+    font-size: 13px;
+    height: 30px;
+    width: 100%;
+    line-height: 15px;
+    overflow: hidden;
+    display: block;
+}
+.jd_shop_product ul li .product_content .product_price {
+    margin-top:5px;
+}
+.jd_shop_product ul li .product_content .product_operation {
+    margin-top:5px;
+}
+.jd_shop_product ul li .product_content .sub {
+    display: block;
+    width: 32px;
+    height: 24px;
+    border:1px solid #e0e0e0;
+    text-align: center;
+    float: left;
+}
+.jd_shop_product ul li .product_content .product_count {
+    display: block;
+    width: 32px;
+    height: 24px;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    float: left;
+}
+
+.jd_shop_product ul li .product_content .add {
+    display: block;
+    width: 32px;
+    height: 24px;
+    border:1px solid #e0e0e0;
+    text-align: center;
+    float: left;
+}
+.jd_shop_product ul li .product_content .product_delete {
+    float: right;
+    width: 19px;
+    height: 20px;
+}
+.jd_shop_product ul li .product_content .product_delete_top {
+    display: block;
+    width: 20px;
+    height: 5px;
+    background:url("../img/delete_up.png") no-repeat;
+    background-size: 20px 5px;
+    margin-bottom:-3px;
+    margin-left:-1px;
+
+}
+.jd_shop_product ul li .product_content .product_delete_bottom {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background:url("../img/delete_down.png") no-repeat;
+    background-size: 18px 18px;
+}
+
+/*底部下单*/
+.order {
+    width: 100%;
+    height: 62px;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+.order_left {
+    float: left;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    margin-right: 120px;
+}
+.order_left .order_checkBox {
+    float: left;
+    height: 100%;
+    padding:21px 10px;
+    color:#fff;
+}
+.order_left .order_checkBox .checkBox {
+    float: left;
+}
+.order_left .order_checkBox span {
+    display: inline-block;
+    float: left;
+    margin-left:4px;
+}
+.order_left .order_price {
+    float: left;
+    height: 100%;
+    color:#fff;
+    padding-top:15px;
+    margin-left:-3px;
+}
+.order_left .order_price .product_sum {
+    font-size: 16px;
+}
+.order_left .order_price .product_pay {
+    font-size: 12px;
+    margin-top:5px;
+}
+.order_right {
+    width: 120px;
+    height: 100%;
+    background-color: #d8505c;
+    float: right;
+    position: absolute;
+    right:0;
+    top:0;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 62px;
+}
+.order_right span {
+    font-size: 12px;
+}
+
+
+/*删除弹窗*/
+.mask_delete {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    background-color: rgba(0,0,0,0.3);
+}
+.mask_delete .delete_info {
+    width: 85%;
+    background-color: #fff;
+    margin:0 auto;
+    text-align: center;
+}
+.mask_delete .delete_info h4 {
+    line-height: 75px;
+    font-weight: inherit;
+    color:#666;
+    font-size: 16px;
+}
+.mask_delete .delete_info .btn_box {
+    width: 85%;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top:1px solid #e0e0e0;
+    font-size: 15px;
+    color:#666;
+    margin:0 auto;
+}
+.mask_delete .delete_info .btn_box .btn_cancel {
+    width: 45%;
+    display: block;
+    height: 36px;
+    border:1px solid #e0e0e0;
+    border-radius: 4px;
+    line-height: 36px;
+    text-align: center;
+    color:#888;
+    float: left;
+}
+.mask_delete .delete_info .btn_box .btn_sure {
+    width: 45%;
+    color:#fff;
+    background-color: #d8505c;
+    display: block;
+    height: 36px;
+    border-radius: 4px;
+    line-height: 36px;
+    text-align: center;
+    float:right;
+}

@@ -59,6 +59,13 @@ input,textarea {
     left:0;
     z-index: 1000;
 }
+.topBar h2 {
+    text-align: center;
+    font-weight: inherit;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 44px;
+}
 .topBar .icon_back {
     background-position:-20px 0 ;
     display: block;
@@ -92,5 +99,14 @@ input,textarea {
     position: absolute;
     top:0px;
     right:0px;
-
+}
+.checkBox {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background:url("../img/shop-icon.png");
+    background-size: 50px 100px;
+}
+.checkBox[checked] {
+    background-position: -25px 0px;
 }
