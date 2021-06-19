@@ -19,7 +19,7 @@ header.jd_header {
 }
 header.jd_header .jd_header_box {
     height: 40px;
-    background-color: rgba(201,21,35,0.85);
+    background-color: rgba(201,21,35,0);
     min-width: 300px;
     max-width: 640px;
     margin:0 auto;
